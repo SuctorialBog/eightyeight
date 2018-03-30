@@ -1,0 +1,32 @@
+// THE FIX THO /////////////////////////////////////////////////////////////////
+*, *::after, *::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+// BREAKPOINTS /////////////////////////////////////////////////////////////////
+ @mixin breakpoint($point) {
+   @if $point == desktop {
+     @media (min-width: 70em) { @content ; }
+  }
+   @else if $point == laptop {
+     @media (min-width: 64em) { @content ; }
+  }
+    @else if $point == tablet {
+     @media (min-width: 50em) { @content ; }
+  }
+   @else if $point == phablet {
+     @media (min-width: 37.5em)  { @content ; }
+  }
+  @else if $point == mobileonly {
+     @media (max-width: 37.5em)  { @content ; }
+
+  }
+}
+
+/* Once declared you can use the following syntax to insert a media query anywhere within your SCSS.
+
+@include breakpoint(breakpointname) {
+		(Add your Styles)
+	} */

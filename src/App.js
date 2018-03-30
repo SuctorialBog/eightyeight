@@ -1,6 +1,14 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './img/logo.svg';
 import './App.css';
+import 'typeface-open-sans';
+import 'typeface-Montserrat';
+import fontawesome from '@fortawesome/fontawesome';
+import FontAwesomeIcon from '@fortawesome/react-fontawesome';
+import brands from '@fortawesome/fontawesome-free-brands';
+import faCoffee from '@fortawesome/fontawesome-free-solid/faCoffee';
+
+fontawesome.library.add(brands, faCoffee);
 
 class App extends Component {
   render() {
