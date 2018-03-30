@@ -10,6 +10,16 @@ import faCoffee from '@fortawesome/fontawesome-free-solid/faCoffee';
 
 fontawesome.library.add(brands, faCoffee);
 
+// Sample use of a icon in a template...
+
+// const Beverage = () => (
+//     <div>
+//         <FontAwesomeIcon icon="check-square"/>
+//         Favorite beverage: <FontAwesomeIcon icon="coffee"/>
+//     </div>
+// )
+
+
 class App extends Component {
   render() {
     return (
