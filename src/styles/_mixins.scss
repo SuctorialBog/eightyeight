@@ -30,3 +30,29 @@
 @include breakpoint(breakpointname) {
 		(Add your Styles)
 	} */
+
+// GRID STYLES /////////////////////////////////////////////////////////////////
+.grid-1-4 {
+	width: 100%;
+		@include breakpoint(phablet) {
+		width: 50%;
+	}
+	@include breakpoint(laptop) {
+		width: 25%;
+	}
+}
+
+.grid-1-3 {
+	width: 100%;
+	@include breakpoint(phablet){
+		width:33.3%;
+		min-height:290px;
+	}
+}
+
+.grid-1-2 {
+	width: 100%;
+	@include breakpoint(tablet){
+		width:50%;
+	}
+}
