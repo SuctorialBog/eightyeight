@@ -34,7 +34,7 @@ class App extends Component {
         websites, illustrations, and apps for the last eight years. If you’re looking to get
         something cooking, I’m always hungry. Simply give me a shout and we can talk about
         what’s on your mind. You can click the links below to download a copy of my resume,
-        email me, check out my work on dribble, see my linkedin profile, or even take a look
+        email me, check out my work on dribbble, see my LinkedIn profile, or even take a look
         at my musical inclinations. I look forward to working with you!</p>
         <div className="home-links">
           <a href="https://drive.google.com/file/d/14WiN4aDJvUxiaV3V7ecg6S96TBA-tk89/view?usp=sharing">Resume</a>
