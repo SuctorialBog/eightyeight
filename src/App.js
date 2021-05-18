@@ -28,16 +28,17 @@ class App extends Component {
     return (
       <div className="main">
         <img src={logo} className="ee-logo" alt="eightyeight logo" />
-        <h1 className="landing-head"><span>Product Designer,<br/>Front End Developer,</span><br />Husband & Father… of twins.</h1>
+        <h1 className="landing-head"><span>Product Designer,<br/>Sour Patch Addict,</span><br />Husband & Father… of three.</h1>
         <hr className="landing-dash" />
         <p className="landing-copy">My name is Skylar Everett. I have been helping people design and develop brands,
-        websites, illustrations, and apps for the last eight years. If you’re looking to get
+        websites, illustrations, apps, and software for over ten years. If you’re looking to get
         something cooking, I’m always hungry. Simply give me a shout and we can talk about
-        what’s on your mind. You can click the links below to download a copy of my resume,
+        what’s on your mind. You can click the links below to download a copy of my resume, my portfolio,
         email me, check out my work on dribbble, see my LinkedIn profile, or even take a look
         at my musical inclinations. I look forward to working with you!</p>
         <div className="home-links">
-          <a href="https://drive.google.com/file/d/14WiN4aDJvUxiaV3V7ecg6S96TBA-tk89/view?usp=sharing">Resume</a>
+          <a href="https://drive.google.com/file/d/15a7jnOStjMDn9V3VP1RtTZixr4JsvOxG/view?usp=sharing">Resume</a>
+          <a href="https://drive.google.com/file/d/1LHMANuWU4JEkqY5Bvm48T2pAOHaSjXqR/view?usp=sharing">Portfolio</a>
           <a className="dots" href="mailto:hello@eighty-eight.co"><FontAwesomeIcon icon={faEnvelope} /></a>
           <a className="dots" href="https://dribbble.com/skylareverett"><FontAwesomeIcon icon={dribbble} /></a>
           <a className="dots" href="https://www.linkedin.com/in/skylareverett"><FontAwesomeIcon icon={linkedIn} /></a>
